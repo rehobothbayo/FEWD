@@ -18,7 +18,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #cc0e74;
 }
 
 a:hover {
@@ -81,12 +81,12 @@ header .profile-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid black;
-    transition: all .2s;
+    border: 3px solid grey;
+    transition: all .5s;
 }
 
 header .profile-image:hover {
-    transform: scale(1.2) rotate(360deg);
+    transform: scale(1.2) rotate(5deg);
 }
 
 .tag {
@@ -100,17 +100,17 @@ header .profile-image:hover {
 
 .location {
     background-color: #222;
-    color: rgb(0, 255, 128);
+    color: rgb(43, 55, 226);
 }
 
 .card {
-    margin: 50px;
+    margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
-    text-align: center;
-    background: white;
-    border-bottom: 4px solid black;
-    border-radius: 50px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
     transition: all .5s;
 }
 
@@ -221,9 +221,13 @@ a.social:hover {
     }
 }
 
+.school {
+    margin: 50px;
+}
+
 .card-title {
     text-align: center;
     border: solid black 3px;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
